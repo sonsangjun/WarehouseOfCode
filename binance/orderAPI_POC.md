@@ -51,8 +51,8 @@ let orderObj = {};
     // API PrivateKey (SecretKey이므로 노출시 재발급 받아야함.)
     // API Key(RequestHeader에 설정)
     const dealSet = {
-        APIPkey : 'private',
-        APIKey : 'private',
+        APIPkey : '{private}',
+        APIKey : '{private}',
         baseUrl : 'https://api.binance.com'
     }
 
